@@ -7,7 +7,7 @@ RPI -> I2C -> Proudový senzor baterky
 RPI -> Serial /dev/ttyS0 -> GPS
 RPI -> Ethernet -> MicroTik
 
-Arduino MEGA -> Motor shield -> Motory
+Arduino MEGA -> Motor shield 
 
 Arduino MEGA -> Pin T: 25 E: 24 -> Ultrazvuk Přední Vlevo
 Arduino MEGA -> Pin T: 27 E: 26 -> Ultrazvuk Přední Vpravo
@@ -18,3 +18,7 @@ Arduino MEGA -> Ethernet shield -> MicroTik
 ESP -> Půl milionu kabelů -> Nikde
 Relátka -> Půl milionu kabelů -> Nikde
 
+Motor shield -> Motor 1 -> Motor Zadní Vlevo
+Motor shield -> Motor 2 -> Motor Přední Vlevo
+Motor shield -> Motor 3 -> Motor Přední Vpravo
+Motor shield -> Motor 4 -> Motor Zadní Vpravo
